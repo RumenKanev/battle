@@ -7,7 +7,7 @@ class Battle < Sinatra::Base
   end
 
   get '/' do
-    'Hello Battle!'
+    'Hello Battle! '
   end
 
   # start the server if ruby file executed directly
