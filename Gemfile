@@ -11,3 +11,4 @@ gem "rerun"
 gem 'webrick'
 gem "rspec"
 gem 'rubocop', require: false
+gem 'capybara'
