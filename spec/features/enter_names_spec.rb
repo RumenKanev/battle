@@ -5,7 +5,7 @@
       fill_in :player_2_name, with: 'Ana'
       click_button 'Submit'
 
-      save_and_open_page # will save the web page and open the browser to display it
+      # save_and_open_page # will save the web page and open the browser to display it
 
       expect(page).to have_content 'Tom vs. Ana'
     end
